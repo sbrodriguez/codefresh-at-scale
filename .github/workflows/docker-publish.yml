@@ -56,8 +56,8 @@ jobs:
         id: build-and-push
         uses: docker/build-push-action@ac9327eae2b366085ac7f6a2d02df8aa8ead720a
         with:
-          context: ./image-updater/source-code
-          file: ./image-updater/source-code/Dockerfile
+          context: ./orig/image-updater/source-code
+          file: ./orig/image-updater/source-code/Dockerfile
           push: true
           tags: ghcr.io/${{ steps.imagename.outputs.lowercase }}:${{ inputs.docker_tag }}
 
