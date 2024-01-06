@@ -13,6 +13,7 @@ spec:
     #repoURL: https://github.com/codefresh-contrib/gitops-cert-level-2-examples.git
     repoURL: https://github.com/sbrodriguez/codefresh-at-scale.git
     targetRevision: HEAD
+    #path: ./image-updater/example-app/envs/staging/
     path: ./orig/image-updater/example-app/envs/staging/
    
   destination:
